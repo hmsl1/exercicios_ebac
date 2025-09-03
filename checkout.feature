@@ -10,8 +10,7 @@
 
             Cenário: Cadastro realizado com sucesso com todos os dados obrigatórios
             Quando preencho todos os campos obrigatórios e clico no botão "Finalizar Cadastro"
-            Então devo ver a mensagem "Cadastro realizado com sucesso"
-            E devo ser redirecionado para a página de finalização da compra
+            Então devo ser redirecionado para a página de finalização da compra e ver a mensagem "Cadastro realizado com sucesso"
 
             Esquema do Cenário: Validação de formato de email
             Quando insiro <email> no campo de email
