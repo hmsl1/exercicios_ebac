@@ -15,12 +15,10 @@
       Então devo ser redirecionado para a página de checkout
 
       Esquema do Cenário: Tentativa de login com credenciais inválidas
-      Quando eu preencher o campo de e-mail com <email>
-      E o campo de senha com <senha>
+      Quando eu preencher o campo de e-mail com <email> e o campo de senha com <senha>
       E clicar no botão "Entrar"
-      Então o sistema deve exibir uma mensagem de alerta: "Usuário ou senha inválidos"
-      E devo permanecer na página de autenticação
-
+      Então devo permanecer na página de autenticação e o sistema deve exibir uma mensagem de alerta: "Usuário ou senha inválidos"
+      
       Exemplos:
       | email                  | senha            |
       | "cliente@ebac.com.br"  | "senha_invalida" |

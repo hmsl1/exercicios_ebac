@@ -9,8 +9,7 @@
             Dado que estou na página de cadastro da EBAC-SHOP
 
             Cenário: Cadastro realizado com sucesso com todos os dados obrigatórios
-            Quando preencho todos os campos obrigatórios
-            E clico no botão "Finalizar Cadastro"
+            Quando preencho todos os campos obrigatórios e clico no botão "Finalizar Cadastro"
             Então devo ver a mensagem "Cadastro realizado com sucesso"
             E devo ser redirecionado para a página de finalização da compra
 
@@ -31,5 +30,4 @@
 Cenário: Tentativa de cadastro com múltiplos campos vazios
 Quando clico no botão "Finalizar Cadastro" sem preencher algum campo obrigatório
 Então devo ver a mensagem de alerta "Campos obrigatórios não preenchidos"
-E não devo ser redirecionado
-E o foco deve ir para o primeiro campo obrigatório vazio
+E não devo ser redirecionado e o foco deve ir para o primeiro campo obrigatório vazio
